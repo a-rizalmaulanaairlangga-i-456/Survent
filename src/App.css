@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 77px);
+}
+
+button.maplibregl-popup-close-button.mapboxgl-popup-close-button{
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+}

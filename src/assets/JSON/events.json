@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "name": "Event Weiboo",
+    "longitude": 112.73,
+    "latitude": -7.25,
+    "tag": ["Cosplay", "Anime", "Outdoor"],
+    "desc": "Festival anime terbesar di Surabaya dengan cosplay competition dan merchandise exclusive.",
+    "date": "2025-08-10",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#ComiconEvent", "#AnimeFestival", "#WeebSurabaya"]
+  },
+  {
+    "id": 2,
+    "name": "Surabaya Food Festival",
+    "longitude": 112.75,
+    "latitude": -7.27,
+    "tag": ["Food", "Festival"],
+    "desc": "Festival kuliner tahunan dengan lebih dari 100 stand makanan khas Surabaya.",
+    "date": "2025-07-15",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#SurabayaFoodFest", "#KulinerSurabaya", "#FoodLover"]
+  },
+  {
+    "id": 3,
+    "name": "Tech Expo Surabaya",
+    "longitude": 112.78,
+    "latitude": -7.29,
+    "tag": ["Technology", "Exhibition"],
+    "desc": "Pameran teknologi terbaru dari startup hingga perusahaan besar di Indonesia.",
+    "date": "2025-09-12",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#SurabayaTech", "#Innovation", "#TechExpo"]
+  },
+  {
+    "id": 4,
+    "name": "Surabaya Jazz Night",
+    "longitude": 112.72,
+    "latitude": -7.30,
+    "tag": ["Music", "Concert"],
+    "desc": "Konser jazz spektakuler dengan musisi nasional dan internasional.",
+    "date": "2025-06-20",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#JazzSurabaya", "#LiveMusic", "#NightVibes"]
+  },
+  {
+    "id": 5,
+    "name": "Startup Pitch Battle",
+    "longitude": 112.76,
+    "latitude": -7.23,
+    "tag": ["Business", "Startup", "Competition"],
+    "desc": "Ajang kompetisi startup terbaik di Surabaya dengan hadiah investasi jutaan rupiah.",
+    "date": "2025-10-05",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#StartupSurabaya", "#TechEntrepreneur", "#BusinessEvent"]
+  },
+  {
+    "id": 6,
+    "name": "Surabaya International Marathon",
+    "longitude": 112.65,
+    "latitude": -7.22,
+    "tag": ["Sport", "Marathon"],
+    "desc": "Marathon internasional di jantung kota Surabaya, terbuka untuk semua kalangan.",
+    "date": "2025-07-22",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#SurabayaMarathon", "#HealthyLife", "#RunForFun"]
+  },
+  {
+    "id": 7,
+    "name": "Indie Film Screening",
+    "longitude": 112.77,
+    "latitude": -7.24,
+    "tag": ["Film", "Cinema"],
+    "desc": "Pemutaran film indie dari sineas muda berbakat Indonesia.",
+    "date": "2025-08-18",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#IndieFilm", "#SurabayaCinema", "#MovieNight"]
+  },
+  {
+    "id": 8,
+    "name": "Surabaya Horror Fest",
+    "longitude": 112.75,
+    "latitude": -7.26,
+    "tag": ["Film", "Horror", "Festival"],
+    "desc": "Festival film horor dengan pemutaran film dan meet-and-greet dengan aktor.",
+    "date": "2025-10-30",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#SurabayaHorror", "#FilmSeram", "#GhostFestival"]
+  },
+  {
+    "id": 9,
+    "name": "Guitar Battle Championship",
+    "longitude": 112.74,
+    "latitude": -7.27,
+    "tag": ["Music", "Competition"],
+    "desc": "Kompetisi gitar terbesar di Surabaya, mencari gitaris terbaik!",
+    "date": "2025-09-15",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#GuitarBattle", "#RockAndRoll", "#MusicCompetition"]
+  },
+  {
+    "id": 10,
+    "name": "Surabaya Esports Championship",
+    "longitude": 112.71,
+    "latitude": -7.28,
+    "tag": ["Gaming", "Esports", "Competition"],
+    "desc": "Turnamen esports terbesar di Surabaya dengan berbagai game populer.",
+    "date": "2025-11-20",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#EsportsSurabaya", "#GamingEvent", "#ProGamers"]
+  },
+  {
+    "id": 11,
+    "name": "Fashion Week Surabaya",
+    "longitude": 112.70,
+    "latitude": -7.29,
+    "tag": ["Fashion", "Exhibition"],
+    "desc": "Pameran mode dengan koleksi dari desainer lokal dan internasional.",
+    "date": "2025-09-05",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#FashionSurabaya", "#StyleTrends", "#Catwalk"]
+  },
+  {
+    "id": 12,
+    "name": "NFT & Crypto Conference",
+    "longitude": 112.75,
+    "latitude": -7.25,
+    "tag": ["Crypto", "Finance", "Technology"],
+    "desc": "Konferensi besar mengenai blockchain, NFT, dan investasi crypto.",
+    "date": "2025-10-18",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#NFTSurabaya", "#CryptoTalks", "#InvestSmart"]
+  },
+  {
+    "id": 16,
+    "name": "Surabaya Cat Lovers Meetup",
+    "longitude": 112.72,
+    "latitude": -7.29,
+    "tag": ["Pets", "Cats", "Community"],
+    "desc": "Tempat berkumpulnya para pecinta kucing, lengkap dengan lomba kostum kucing.",
+    "date": "2025-08-05",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#MeowMeetup", "#CatLovers", "#PawParty"]
+  },
+  {
+    "id": 17,
+    "name": "Surabaya Python Conference",
+    "longitude": 112.75,
+    "latitude": -7.22,
+    "tag": ["Technology", "Programming", "Conference"],
+    "desc": "Konferensi developer Python terbesar di Jawa Timur.",
+    "date": "2025-11-10",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#PythonConf", "#TechTalks", "#CodingEvent"]
+  },
+  {
+    "id": 18,
+    "name": "Surabaya Food Truck Festival",
+    "longitude": 112.78,
+    "latitude": -7.27,
+    "tag": ["Food", "Festival"],
+    "desc": "Festival food truck terbesar dengan berbagai macam street food khas Indonesia.",
+    "date": "2025-08-20",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#FoodTruckFest", "#SurabayaStreetFood", "#KulinerLegit"]
+  },
+  {
+    "id": 19,
+    "name": "Surabaya Gaming Expo",
+    "longitude": 112.79,
+    "latitude": -7.24,
+    "tag": ["Gaming", "Exhibition"],
+    "desc": "Pameran game dengan demo game terbaru dan kompetisi seru!",
+    "date": "2025-07-18",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#GamingExpo", "#GameOn", "#SurabayaGamer"]
+  },
+  {
+    "id": 20,
+    "name": "Surabaya Yoga Retreat",
+    "longitude": 112.71,
+    "latitude": -7.23,
+    "tag": ["Wellness", "Yoga", "Health"],
+    "desc": "Retret yoga di tengah kota, cocok untuk relaksasi dan meditasi.",
+    "date": "2025-09-25",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#YogaSurabaya", "#Wellness", "#RelaxAndStretch"]
+  },
+  {
+    "id": 21,
+    "name": "Surabaya AI Summit",
+    "longitude": 112.75,
+    "latitude": -7.28,
+    "tag": ["Technology", "AI", "Conference"],
+    "desc": "Konferensi AI terbesar membahas perkembangan kecerdasan buatan di Indonesia.",
+    "date": "2025-10-15",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#AISummit", "#TechConference", "#FutureOfAI"]
+  },
+  {
+    "id": 22,
+    "name": "Surabaya Skate Jam",
+    "longitude": 112.73,
+    "latitude": -7.26,
+    "tag": ["Sports", "Skateboarding", "Competition"],
+    "desc": "Kompetisi skateboard terbuka untuk semua skater Surabaya.",
+    "date": "2025-08-12",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#SkateSurabaya", "#ExtremeSports", "#SkateJam"]
+  },
+  {
+    "id": 23,
+    "name": "Surabaya Outdoor Adventure",
+    "longitude": 112.77,
+    "latitude": -7.25,
+    "tag": ["Adventure", "Hiking", "Outdoor"],
+    "desc": "Petualangan outdoor di berbagai tempat ikonik Surabaya.",
+    "date": "2025-07-30",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#OutdoorAdventure", "#ExploreSurabaya", "#Hiking"]
+  },
+  {
+    "id": 24,
+    "name": "Indie Music Festival",
+    "longitude": 112.74,
+    "latitude": -7.28,
+    "tag": ["Music", "Festival"],
+    "desc": "Festival musik indie menampilkan band-band lokal terbaik!",
+    "date": "2025-09-07",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#IndieFest", "#LiveMusic", "#SupportLocalArtists"]
+  },
+  {
+    "id": 25,
+    "name": "Surabaya E-Sports Bootcamp",
+    "longitude": 112.76,
+    "latitude": -7.27,
+    "tag": ["Gaming", "Bootcamp"],
+    "desc": "Bootcamp untuk para calon atlet e-sports profesional di Surabaya.",
+    "date": "2025-10-05",
+    "link_ticket": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "hastag_used": ["#ESportsTraining", "#GamingBootcamp", "#ProPlayer"]
+  }
+
+]
