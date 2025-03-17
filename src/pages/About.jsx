@@ -11,7 +11,7 @@ const AboutPage = () => {
       contact: {
         whatsapp: "+62 857-3054-0210",
         email: "rizalmaulanaairlanggad4itb2024@gmail.com",
-        social: "@a_rizal_i",
+        social: "a_rizal_i",
         github: "a-rizalmaulanaairlangga-i-456"
       },
       quote: "Apapun yang terjadi, tetaplah bernapas dengan tenang."
@@ -23,7 +23,7 @@ const AboutPage = () => {
       contact: {
         whatsapp: "+62 821-9290-7075",
         email: "Ammararsyad1205@gmail.com",
-        social: "@ammar.arsyad1",
+        social: "ammar.arsyad1",
         github: "member2.example.com"
       },
       quote: "Hidup itu seperti sepeda. Untuk menjaga keseimbangan, kamu harus terus bergerak."
@@ -35,10 +35,10 @@ const AboutPage = () => {
       contact: {
         whatsapp: "+62 851-7220-4869",
         email: "irvankurniawan624@gmail.com",
-        social: "@Coach_Irvan",
+        social: "Coach_Irvan",
         github: "irvankurniawan624"
       },
-      quote: "Be the change you wish to see in the world."
+      quote: "Dipuji tidak terbang, Dihina aku tumbang"
     }
   ];
 
@@ -73,24 +73,19 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Navbar */}
       <NavbarComponent />
 
-      {/* Main Content */}
       <main className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        {/* About Our Project */}
         <section className="mb-16">
           <h1 className="text-3xl font-bold mb-6 text-gray-800 text-center">About Our Project</h1>
           <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
             <div className="flex flex-col">
-              {/* Project description */}
               <div className="p-6 text-center">
                 <p className="text-gray-700 mb-6">
                 SURVENT lahir dari semangat untuk menghadirkan informasi terkini mengenai berbagai event dan kegiatan di Surabaya. Proyek ini merupakan bagian dari perlombaan UI dalam kegiatan MINI CLASS X E-CODE HIMIT PENS, yang bertujuan untuk menciptakan aplikasi dengan manfaat nyata bagi masyarakat.
                 </p>
               </div>
               
-              {/* Logo with gradient background - full width */}
               <div style={logoStyles} className="flex w-11/12 mx-auto items-center justify-center p-6 bg-gradient-to-r from-white to-gray-200">
                 <div className="max-w-lg w-full">
                   <img 
@@ -101,7 +96,6 @@ const AboutPage = () => {
                 </div>
               </div>
               
-              {/* Product information below logo */}
               <div className="p-6 text-center">
                 <div className="text-gray-700">
                   <p className="mb-2">Surabaya Event and Entertainment atau yang lebih dikenal SURVENT, hadir untuk mempermudah masyarakat dalam menemukan dan mengikuti berbagai kegiatan menarik di Surabaya, mulai dari konser, seminar, festival, hingga workshop edukatif. Aplikasi ini juga memberikan kesempatan bagi penyelenggara untuk mempromosikan event mereka kepada khalayak yang lebih luas. 
@@ -115,7 +109,6 @@ const AboutPage = () => {
           </div>
         </section>
 
-        {/* Framework / Libraries Used */}
         <section className="mb-16">
           <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">Framework / Libraries Used</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -132,8 +125,6 @@ const AboutPage = () => {
             ))}
           </div>
         </section>
-
-        {/* About Our Team */}
         <section>
           <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">About Our Team</h2>
           <div className="bg-gray-50 rounded-lg shadow-md p-6 mb-8">
@@ -145,29 +136,25 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
-                {/* Member Photo */}
                 <div className="p-4 flex justify-center bg-gray-50">
                   <img src={member.photo} alt={member.name} className="h-48 w-48 rounded-full object-cover" />
                 </div>
                 
-                {/* Member Info */}
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
                   <p className="text-gray-600 mb-4">{member.major}</p>
                   
                   <hr className="my-4" />
                   
-                  {/* Contact Info */}
                   <div className="text-sm text-gray-700 space-y-2">
                     <p><span className="font-medium">WhatsApp:</span> {member.contact.whatsapp}</p>
                     <p><span className="font-medium">Email:</span> {member.contact.email}</p>
-                    <p><span className="font-medium">Instagram:</span> {member.contact.social}</p>
+                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/member.contact.social`} className='text-blue-600 hover:text-blue-800'> @{member.contact.social}</a></p>
                     <p><span className="font-medium">GitHub:</span> {member.contact.github}</p>
                   </div>
                   
                   <hr className="my-4" />
                   
-                  {/* Quote */}
                   <div className="italic text-gray-600">
                     "{member.quote}"
                   </div>
@@ -178,10 +165,9 @@ const AboutPage = () => {
         </section>
       </main>
       
-      {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 mt-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Udah Bukan Saatnya #DirumahAja. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SURVENT APPS | All rights reserved.</p>
         </div>
       </footer>
     </div>
