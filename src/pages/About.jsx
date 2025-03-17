@@ -14,7 +14,7 @@ const AboutPage = () => {
         social: "@a_rizal_i",
         github: "a-rizalmaulanaairlangga-i-456"
       },
-      quote: "Apapun yang terjadi, tetaplah bernapas dengan tenang"
+      quote: "Apapun yang terjadi, tetaplah bernapas dengan tenang."
     },
     {
       name: "Andi Muhammad Ammar Arsyad",
@@ -26,7 +26,7 @@ const AboutPage = () => {
         social: "@ammar.arsyad1",
         github: "member2.example.com"
       },
-      quote: "Innovation distinguishes between a leader and a follower."
+      quote: "Hidup itu seperti sepeda. Untuk menjaga keseimbangan, kamu harus terus bergerak."
     },
     {
       name: "⁠Irvan Aditya Kurniawan",

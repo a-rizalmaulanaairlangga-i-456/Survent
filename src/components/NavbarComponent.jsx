@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
 export default function NavbarComponent(){
@@ -49,17 +50,41 @@ export default function NavbarComponent(){
                     </button>
                 </div>
                 <div className={`${isOpen ? "flex" : "hidden"} flex-col mt-4 lg:flex lg:flex-row lg:space-x-8 lg:mt-0 lg:w-auto lg:order-1 w-full`}>
-                    <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                        <li>
-                            <a href="#" className="block py-2 pr-4 pl-3 text-gray-700 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Map</a>
-                        </li>
-                        <li>
-                            <a href="/about" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
-                        </li>
-                    </ul>
+                <ul className="flex flex-col mt-4 font-normal lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <NavLink to="/home"
+                            className={({ isActive }) =>
+                                `block py-2 pr-4 pl-3 rounded lg:p-0 ${
+                                    isActive ? "text-gray-200 font-bold" : "text-gray-300"
+                                }`
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/map"
+                            className={({ isActive }) =>
+                                `block py-2 pr-4 pl-3 border-gray-100 lg:border-0 lg:p-0 ${
+                                    isActive ? "text-gray-200 font-bold" : "text-gray-300"
+                                }`
+                            }
+                        >
+                            Map
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about"
+                            className={({ isActive }) =>
+                                `block py-2 pr-4 pl-3 border-gray-100 lg:border-0 lg:p-0 ${
+                                    isActive ? "text-gray-200 font-bold" : "text-gray-300"
+                                }`
+                            }
+                        >
+                            About
+                        </NavLink>
+                    </li>
+                </ul>
                 </div>
             </div>
         </nav>
