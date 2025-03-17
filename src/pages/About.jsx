@@ -5,38 +5,38 @@ const AboutPage = () => {
   // Team member data
   const teamMembers = [
     {
-      name: "Team Member Name 1",
-      major: "Computer Science",
-      photo: "/api/placeholder/200/200",
+      name: "Rizal Maulana Airlangga",
+      major: "Teknik Informatika",
+      photo: "/selfPhoto/rizal.jpg",
       contact: {
-        whatsapp: "+62 812-3456-7890",
-        email: "member1@example.com",
-        social: "@member1",
-        website: "member1.example.com"
+        whatsapp: "+62 857-3054-0210",
+        email: "rizalmaulanaairlanggad4itb2024@gmail.com",
+        social: "@a_rizal_i",
+        github: "a-rizalmaulanaairlangga-i-456"
       },
-      quote: "The only way to do great work is to love what you do."
+      quote: "Apapun yang terjadi, tetaplah bernapas dengan tenang"
     },
     {
-      name: "Team Member Name 2",
-      major: "Information Technology",
-      photo: "/api/placeholder/200/200",
+      name: "Andi Muhammad Ammar Arsyad",
+      major: "Teknik Informatika",
+      photo: "/selfPhoto/ammar.jpg",
       contact: {
-        whatsapp: "+62 812-3456-7891",
-        email: "member2@example.com",
-        social: "@member2",
-        website: "member2.example.com"
+        whatsapp: "+62 821-9290-7075",
+        email: "Ammararsyad1205@gmail.com",
+        social: "@ammar.arsyad1",
+        github: "member2.example.com"
       },
       quote: "Innovation distinguishes between a leader and a follower."
     },
     {
-      name: "Team Member Name 3",
-      major: "Software Engineering",
-      photo: "/api/placeholder/200/200",
+      name: "⁠Irvan Aditya Kurniawan",
+      major: "Teknik Informatika",
+      photo: "/selfPhoto/irvan.jpg",
       contact: {
-        whatsapp: "+62 812-3456-7892",
-        email: "member3@example.com",
-        social: "@member3",
-        website: "member3.example.com"
+        whatsapp: "+62 851-7220-4869",
+        email: "irvankurniawan624@gmail.com",
+        social: "@Coach_Irvan",
+        github: "irvankurniawan624"
       },
       quote: "Be the change you wish to see in the world."
     }
@@ -46,23 +46,23 @@ const AboutPage = () => {
   const technologies = [
     {
       name: "React.js",
-      logo: "/api/placeholder/120/120",
-      description: "A JavaScript library for building user interfaces"
+      logo: "/img/atom.png",
+      description: "Perpustakaan JavaScript untuk membangun antarmuka pengguna"
     },
     {
       name: "Tailwind CSS",
-      logo: "/api/placeholder/120/120",
-      description: "A utility-first CSS framework"
+      logo: "/img/tailwind.png",
+      description: "Kerangka kerja CSS yang mengutamakan utilitas"
     },
     {
       name: "MapLibre",
-      logo: "/api/placeholder/120/120",
-      description: "Open-source maps for your applications"
+      logo: "/img/maplibregljs.png",
+      description: "Peta sumber terbuka untuk aplikasi"
     },
     {
       name: "MapTiler",
-      logo: "/api/placeholder/120/120",
-      description: "Maps for developers and designers"
+      logo: "/logo192.png",
+      description: "Peta untuk pengembang dan desainer"
     }
   ];
 
@@ -72,7 +72,7 @@ const AboutPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-100">
       {/* Navbar */}
       <NavbarComponent />
 
@@ -81,7 +81,7 @@ const AboutPage = () => {
         {/* About Our Project */}
         <section className="mb-16">
           <h1 className="text-3xl font-bold mb-6 text-gray-800 text-center">About Our Project</h1>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
             <div className="flex flex-col">
               {/* Project description */}
               <div className="p-6 text-center">
@@ -120,7 +120,7 @@ const AboutPage = () => {
           <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">Framework / Libraries Used</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {technologies.map((tech, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div key={index} className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
                 <div className="p-4 flex justify-center">
                   <img src={tech.logo} alt={tech.name} className="h-24 w-auto" />
                 </div>
@@ -135,18 +135,16 @@ const AboutPage = () => {
 
         {/* About Our Team */}
         <section>
-          <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">About Our Team</h2>
-          <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">About Our Team</h2>
+          <div className="bg-gray-50 rounded-lg shadow-md p-6 mb-8">
             <p className="text-gray-700 text-center">
-              Our team consists of dedicated students committed to creating innovative solutions. 
-              We believe in the power of technology to make positive changes in society, especially 
-              in helping people adapt to the post-pandemic world.
+            Tim kami beranggotakan tiga orang yang terdiri dari Mahasiswa Politeknik Elektronika Negeri Surabaya yang berdedikasi dan berkomitmen untuk menciptakan solusi inovatif. Kami percaya pada kekuatan teknologi untuk membuat perubahan positif di masyarakat, terutama dalam membantu masyarakat beradaptasi dengan dunia pasca pandemi.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div key={index} className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
                 {/* Member Photo */}
                 <div className="p-4 flex justify-center bg-gray-50">
                   <img src={member.photo} alt={member.name} className="h-48 w-48 rounded-full object-cover" />
@@ -163,8 +161,8 @@ const AboutPage = () => {
                   <div className="text-sm text-gray-700 space-y-2">
                     <p><span className="font-medium">WhatsApp:</span> {member.contact.whatsapp}</p>
                     <p><span className="font-medium">Email:</span> {member.contact.email}</p>
-                    <p><span className="font-medium">Social:</span> {member.contact.social}</p>
-                    <p><span className="font-medium">Website:</span> {member.contact.website}</p>
+                    <p><span className="font-medium">Instagram:</span> {member.contact.social}</p>
+                    <p><span className="font-medium">GitHub:</span> {member.contact.github}</p>
                   </div>
                   
                   <hr className="my-4" />
