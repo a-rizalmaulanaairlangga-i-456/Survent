@@ -16,11 +16,10 @@ const Dashboard = () => {
         <NavbarComponent />
         <div className="bg-cream">
             <div className="max-w-screen-xl px-8 mx-auto flex flex-col items-center pt-24">
-                <div className="flex flex-row items-center">
-                    <div
-                        className="flex flex-col w-full lg:w-6/12 justify-center items-start text-center lg:text-left mb-5 md:mb-0">
+                <div className="flex flex-col-reverse lg:flex-start lg:flex-row items-center">
+                    <div className="flex flex-col w-full lg:w-6/12 justify-center items-start text-center lg:text-left mb-5 md:mb-0">
                         <h1 data-aos="fade-right" data-aos-once="true"
-                            className="my-4 text-5xl font-bold leading-tight text-darken">
+                            className="my-4 text-2xl lg:text-5xl font-bold leading-tight text-darken">
                             Cari Event Lebih Mudah Dengan <span className="text-blue-700">SURVENT</span>
                         </h1>
                         <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300"
