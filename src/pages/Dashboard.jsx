@@ -14,7 +14,7 @@ const Dashboard = () => {
     return(
     <div>
         <NavbarComponent />
-        <div className="bg-cream">
+        <div className="bg-cream pb-10">
             <div className="max-w-screen-xl px-8 mx-auto flex flex-col items-center pt-24">
                 <div className="flex flex-col-reverse lg:flex-start lg:flex-row items-center">
                     <div className="flex flex-col w-full lg:w-6/12 justify-center items-start text-center lg:text-left mb-5 md:mb-0">
