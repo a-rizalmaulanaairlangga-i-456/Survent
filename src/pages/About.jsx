@@ -24,7 +24,7 @@ const AboutPage = () => {
         whatsapp: "+62 821-9290-7075",
         email: "Ammararsyad1205@gmail.com",
         social: "ammar.arsyad1",
-        github: "member2.example.com"
+        github: "ammararsyad123"
       },
       quote: "Hidup itu seperti sepeda. Untuk menjaga keseimbangan, kamu harus terus bergerak."
     },
@@ -149,7 +149,7 @@ const AboutPage = () => {
                   <div className="text-sm text-gray-700 space-y-2">
                     <p><span className="font-medium">WhatsApp:</span> {member.contact.whatsapp}</p>
                     <p><span className="font-medium">Email:</span> {member.contact.email}</p>
-                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/member.contact.social`} className='text-blue-600 hover:text-blue-800'> @{member.contact.social}</a></p>
+                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/${member.contact.social}`} className='text-blue-600 hover:text-blue-800'> @{member.contact.social}</a></p>
                     <p><span className="font-medium">GitHub:</span> {member.contact.github}</p>
                   </div>
                   
