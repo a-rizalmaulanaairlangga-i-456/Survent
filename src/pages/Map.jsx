@@ -82,7 +82,7 @@ const MapPages = () => {
         style={{ width: "100%", height: "calc(100vh - 77px)" }}
         // mapStyle="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json"
         // mapStyle="https://api.maptiler.com/maps/streets/style.json?key=bi8Puku2ONUnhg5Kx6Yh" // 3 d bug lag
-        mapStyle="https://api.maptiler.com/maps/basic/style.json?key=bi8Puku2ONUnhg5Kx6Yh" // 3 d bug lag
+        mapStyle="https://api.maptiler.com/maps/basic/style.json?key=VMPcc8XEZ6JOrAWPfYCu" // 3 d bug lag
         maxBounds={surabayaLimit}
         onClick={handleMapClick} 
       >
