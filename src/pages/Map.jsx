@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Map, { Marker, Popup, NavigationControl } from 'react-map-gl';
 import NavbarComponent from '../components/NavbarComponent';
 import maplibregl from 'maplibre-gl';

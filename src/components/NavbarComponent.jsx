@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import TimeComponent from './TimeComponent';
 
 export default function NavbarComponent(){

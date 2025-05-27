@@ -6,10 +6,10 @@ const AboutPage = () => {
   const teamMembers = [
     {
       name: "Rizal Maulana Airlangga",
-      major: "Teknik Informatika",
+      role: "Frontend Developer",
+      major: "D4 Teknik Informatika",
       photo: "/selfPhoto/rizal.jpg",
       contact: {
-        whatsapp: "+62 857-3054-0210",
         email: "rizalmaulanaairlanggad4itb2024@gmail.com",
         social: "a_rizal_i",
         github: "a-rizalmaulanaairlangga-i-456"
@@ -18,10 +18,10 @@ const AboutPage = () => {
     },
     {
       name: "Andi Muhammad Ammar Arsyad",
-      major: "Teknik Informatika",
+      role: "Leader",
+      major: "D4 Teknik Informatika",
       photo: "/selfPhoto/ammar.jpg",
       contact: {
-        whatsapp: "+62 821-9290-7075",
         email: "Ammararsyad1205@gmail.com",
         social: "ammar.arsyad1",
         github: "ammararsyad123"
@@ -30,10 +30,10 @@ const AboutPage = () => {
     },
     {
       name: "⁠Irvan Aditya Kurniawan",
-      major: "Teknik Informatika",
+      role: "Backend Developer",
+      major: "D4 Teknik Informatika",
       photo: "/selfPhoto/irvan.jpg",
       contact: {
-        whatsapp: "+62 851-7220-4869",
         email: "irvankurniawan624@gmail.com",
         social: "Coach_Irvan",
         github: "irvankurniawan624"
@@ -147,10 +147,15 @@ const AboutPage = () => {
                   <hr className="my-4" />
                   
                   <div className="text-sm text-gray-700 space-y-2">
-                    <p><span className="font-medium">WhatsApp:</span> {member.contact.whatsapp}</p>
-                    <p><span className="font-medium">Email:</span> {member.contact.email}</p>
-                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/${member.contact.social}`} className='text-blue-600 hover:text-blue-800'> @{member.contact.social}</a></p>
-                    <p><span className="font-medium">GitHub:</span> {member.contact.github}</p>
+                    <p><span className="font-medium">Role:</span> {member.role}</p>
+                    <p>
+                      <span className="font-medium">Email:</span>{' '}
+                      <a href={`mailto:${member.contact.email}`} className="text-blue-600 hover:underline">
+                        {member.contact.email}
+                      </a>
+                    </p>
+                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/${member.contact.social}`} className='text-blue-600 hover:text-blue-800' target='_blank'> @{member.contact.social}</a></p>
+                    <p><span className="font-medium">Git-Hub:</span><a href={`https://github.com/${member.contact.github}`} className='text-blue-600 hover:text-blue-800' target='_blank'> {member.contact.github}</a></p>
                   </div>
                   
                   <hr className="my-4" />

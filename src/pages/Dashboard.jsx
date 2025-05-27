@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import NavbarComponent from "../components/NavbarComponent";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
@@ -36,7 +36,7 @@ const Dashboard = () => {
                     </div>
                     <div className="w-full lg:w-6/12 relative" id="girl">
                         <img data-aos="fade-up" data-aos-once="true" className="w-7/12 mt-10 mx-auto"
-                            src="/img/Logo Survent.svg" />
+                            src="/img/Logo Survent.svg" alt="logo-survent" />
                     </div>
                 </div>
                 <div className="sm:flex items-center sm:space-x-8 mt-36">
