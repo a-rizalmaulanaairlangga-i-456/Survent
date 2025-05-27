@@ -154,8 +154,8 @@ const AboutPage = () => {
                         {member.contact.email}
                       </a>
                     </p>
-                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/${member.contact.social}`} className='text-blue-600 hover:text-blue-800' target='_blank'> @{member.contact.social}</a></p>
-                    <p><span className="font-medium">Git-Hub:</span><a href={`https://github.com/${member.contact.github}`} className='text-blue-600 hover:text-blue-800' target='_blank'> {member.contact.github}</a></p>
+                    <p><span className="font-medium">Instagram:</span><a href={`http://instagram.com/${member.contact.social}`} className='text-blue-600 hover:text-blue-800' target='_blank' rel='noreferrer'> @{member.contact.social}</a></p>
+                    <p><span className="font-medium">Git-Hub:</span><a href={`https://github.com/${member.contact.github}`} className='text-blue-600 hover:text-blue-800' target='_blank' rel='noreferrer'> {member.contact.github}</a></p>
                   </div>
                   
                   <hr className="my-4" />
